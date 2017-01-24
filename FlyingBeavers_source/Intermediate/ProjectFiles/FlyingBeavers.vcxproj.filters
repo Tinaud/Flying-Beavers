@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\FlyingBeavers.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D74F63F4-E857-4397-9AA7-FD7069A9F64E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FlyingBeavers.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FlyingBeaversEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{79D1C28C-CAF2-4750-8643-07C42B6F7819}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\FlyingBeavers">
+			<UniqueIdentifier>{3277D3F6-E6E6-4023-84FC-F803129E7B59}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FlyingBeavers\FlyingBeavers.Build.cs">
+			<Filter>Source\FlyingBeavers</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\FlyingBeavers\FlyingBeavers.cpp">
+			<Filter>Source\FlyingBeavers</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FlyingBeavers\FlyingBeavers.h">
+			<Filter>Source\FlyingBeavers</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FlyingBeavers\FlyingBeaversCharacter.cpp">
+			<Filter>Source\FlyingBeavers</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FlyingBeavers\FlyingBeaversCharacter.h">
+			<Filter>Source\FlyingBeavers</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FlyingBeavers\FlyingBeaversGameMode.cpp">
+			<Filter>Source\FlyingBeavers</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FlyingBeavers\FlyingBeaversGameMode.h">
+			<Filter>Source\FlyingBeavers</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
